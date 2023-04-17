@@ -2,7 +2,7 @@ import React from "react";
 
 const Card = () => {
 	return (
-		<div className="absolute inset-0 mt-[500px]  md:mt-[600px] sm:flex  md:mx-auto md:justify-center my-4 mb-4 ">
+		<div className="absolute inset-0 mt-[500px]  md:mt-[740px] lg:mt- sm:flex  md:mx-auto md:justify-center my-4 mb-4 ">
 			<div className="bg-orange-600 md:h-[35vh] md:w-[24vw] h-[300px] ml-4 md:ml-0">
 				<div className=" mt-4 ml-4">
 					<h3 className="text-lg">Served Over</h3>

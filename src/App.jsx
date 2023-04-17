@@ -15,7 +15,7 @@ function App() {
 			<Navbar />
 			<Carousel />
 			<Card />
-      <Services/>
+			<Services />
 		</>
 	);
 }

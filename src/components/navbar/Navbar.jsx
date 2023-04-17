@@ -9,7 +9,7 @@ const Navbar = () => {
 	};
 	return (
 		// parent-section
-		<div className="bg-navbar-background  h-[90vh] w-[100vw] absolute inset-0  font-sans overflow-hidden  ">
+		<div className="bg-navbar-background  h-[90vh] lg:w-[100vw] md:w-[100vw]  absolute inset-0  font-sans overflow-hidden  ">
 			<div className="flex justify-between  bg-slate-600/40 py-4 z-50 sticky top-0 shadow-2xl">
 				{/* left-section */}
 
