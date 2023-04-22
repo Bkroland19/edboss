@@ -14,13 +14,13 @@ import { Blog } from "./components/blog";
 function App() {
 	return (
 		<>
-			{/* <Navbar />
+			<Navbar />
 			<Card />
 			<Partners />
 			
 			<Contact />
-			<Footer /> */}
-			<Blog />
+			<Footer />
+			{/* <Blog /> */}
 		</>
 	);
 }
