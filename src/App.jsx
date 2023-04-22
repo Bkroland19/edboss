@@ -17,7 +17,7 @@ function App() {
 			<Navbar />
 			<Card />
 			<Partners />
-			
+
 			<Contact />
 			<Footer />
 			{/* <Blog /> */}

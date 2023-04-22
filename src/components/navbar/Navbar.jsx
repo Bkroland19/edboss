@@ -9,14 +9,16 @@ const Navbar = () => {
 	};
 	return (
 		// parent-section
-		<div className="bg-navbar-background  h-[90vh] lg:w-[100vw] md:w-[100vw]  absolute inset-0  font-sans overflow-hidden  ">
+		<div className="bg-navbar-background  h-[90vh] lg:w-[100vw] md:w-[100vw]  absolute inset-0  font-sans   ">
 			<div className="flex justify-between  bg-slate-600/40 py-4 z-50 sticky top-0 shadow-2xl">
 				{/* left-section */}
 
-				<div className="mx-8 mt-4">
-					<h2 className="font-bold md:text-2xl text-orange-700/80">
-						EDBOSS
-					</h2>
+				<div className="mx-11 mt-2">
+					<img
+						className="w-[97px] "
+						src="https://res.cloudinary.com/itgenius/image/upload/v1682186090/logo-no-background_cbbumw.svg"
+						alt="logo"
+					/>
 				</div>
 
 				{/* menu icon (visible on small screens) */}
