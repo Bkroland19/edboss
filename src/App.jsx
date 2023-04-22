@@ -6,6 +6,9 @@ import { Navbar } from "./components/navbar";
 import { Carousel } from "./components/carousel";
 import { Card } from "./components/cards";
 import { Services } from "./components/pageutils";
+import { Partners } from "./components/partners";
+import { Footer } from "./components/footer";
+import { Contact } from "./components/contact";
 
 function App() {
 	const [count, setCount] = useState(0);
@@ -13,9 +16,11 @@ function App() {
 	return (
 		<>
 			<Navbar />
-			<Carousel />
+			{/* <Carousel /> */}
 			<Card />
-			<Services />
+			<Partners />
+			<Contact />
+			<Footer />
 		</>
 	);
 }

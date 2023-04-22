@@ -3,8 +3,8 @@ import React from "react";
 const Card = () => {
 	return (
 		<div className="absolute inset-0 mt-[500px]  md:mt-[740px] lg:mt- sm:flex  md:mx-auto md:justify-center my-4 mb-4 ">
-			<div className="bg-orange-600 md:h-[35vh] md:w-[24vw] h-[300px] ml-4 md:ml-0">
-				<div className=" mt-4 ml-4">
+			<div className="bg-[#f26f2d] md:h-[35vh] md:w-[24vw] h-[300px] mx-4 md:mx-0">
+				<div className="  ml-4">
 					<h3 className="text-lg">Served Over</h3>
 					<h1 className="text-3xl my-4">1,521,550</h1>
 					<h4 className="text-lg">Clients.</h4>
@@ -14,8 +14,8 @@ const Card = () => {
 					</p>
 				</div>
 			</div>
-			<div className="bg-orange-400 md:h-[35vh] md:w-[24vw] h-[300px] ml-4 md:ml-0">
-				<div className=" mt-4 ml-4">
+			<div className="bg-[#f48f3d]  md:h-[35vh] md:w-[24vw] h-[300px] mx-4 md:mx-0">
+				<div className="  ml-4">
 					<h3 className="text-lg"> Mission</h3>
 
 					<p className="mt-10 font-light">
@@ -26,8 +26,8 @@ const Card = () => {
 					</p>
 				</div>
 			</div>
-			<div className="bg-orange-300 md:h-[35vh] md:w-[24vw] h-[300px] ml-4 md:ml-0">
-				<div className=" mt-4 ml-4">
+			<div className="bg-[#f5aa3a] md:h-[35vh] md:w-[24vw] h-[300px] mx-4 md:mx-0">
+				<div className="  ml-4">
 					<h3 className="text-lg"> Vision</h3>
 
 					<p className="my-8 font-light">
