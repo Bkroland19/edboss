@@ -2,11 +2,11 @@ import React from "react";
 
 const Contact = () => {
 	return (
-		<div className="flex bg-[#f37c44] h-[80vh] mt-[1456px]">
-			<div className="flex justify-center items-center mx-auto space-x-8">
+		<div className="flex bg-[#f37c44] h-[93vh] md:h-[80vh] mt-[1768px] md:mt-[1456px]">
+			<div className=" md:flex justify-center items-center mx-auto md:space-x-8">
 				<div>
 					<img
-						className="w-[356px] h-[345px]"
+						className="md:w-[486px] w-[286px] h-[285px] md:h-[485px]"
 						src="https://res.cloudinary.com/itgenius/image/upload/v1682173207/contact-us-1_soydcy.png"
 						alt="image"
 					/>

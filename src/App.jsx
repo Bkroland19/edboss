@@ -9,18 +9,18 @@ import { Services } from "./components/pageutils";
 import { Partners } from "./components/partners";
 import { Footer } from "./components/footer";
 import { Contact } from "./components/contact";
+import { Blog } from "./components/blog";
 
 function App() {
-	const [count, setCount] = useState(0);
-
 	return (
 		<>
-			<Navbar />
-			{/* <Carousel /> */}
+			{/* <Navbar />
 			<Card />
 			<Partners />
+			
 			<Contact />
-			<Footer />
+			<Footer /> */}
+			<Blog />
 		</>
 	);
 }
