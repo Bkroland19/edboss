@@ -4,12 +4,13 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import { Navbar } from "./components/navbar";
 import { Carousel } from "./components/carousel";
-import { Card } from "./components/cards";
+import { Card, Card2 } from "./components/cards";
 import { Services } from "./components/pageutils";
 import { Partners } from "./components/partners";
 import { Footer } from "./components/footer";
 import { Contact } from "./components/contact";
 import { Blog } from "./components/blog";
+
 
 function App() {
 	return (
@@ -17,7 +18,7 @@ function App() {
 			<Navbar />
 			<Card />
 			<Partners />
-
+            <Services />			
 			<Contact />
 			<Footer />
 			{/* <Blog /> */}

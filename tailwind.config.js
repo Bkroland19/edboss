@@ -12,5 +12,5 @@ export default {
 		// 	"edboss-orange": "#fa8f3d",
 		// },
 	},
-	plugins: [],
+	plugins: [require("daisyui")],
 };
