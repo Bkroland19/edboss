@@ -12,7 +12,7 @@ const SimpleCard = ({ imageSrc }) => {
 					/>
 				</div>
 				<p className="text-center my-4 font-medium text-lg">company name</p>
-				<p className="text-center my-4 font-thin text-sm px-4">
+				<p className="text-center my-4 font-thin text-sm px-4 text-gray-700">
 					Some text to describe what the comapny does briefly Some text to
 					describe what the comapny does briefly Some text to describe what
 					the comapny does briefly

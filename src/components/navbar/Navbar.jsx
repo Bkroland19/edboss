@@ -54,8 +54,8 @@ const Navbar = () => {
 					<p className="menu">About</p>
 					<p className="menu">BossesApp/e-Market</p>
 					<p className="menu">SalesForce</p>
-					<p className="menu">Blog</p>
-					<p className="menu">Promote Your Business</p>
+					{/* <p className="menu">Blog</p>
+					<p className="menu">Promote Your Business</p> */}
 					<p className="menu">Contact</p>
 					<p className="menu">Jobs</p>
 				</div>
