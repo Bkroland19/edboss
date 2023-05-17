@@ -1,14 +1,29 @@
 import React from "react";
+import { useState } from "react";
+import MyModal from "../pageutils/Modal";
 
 const Footer = () => {
+	let [isOpen, setIsOpen] = useState(false);
+
+	const handleClick = () => {
+		setIsOpen(!isOpen);
+	};
+
+	let closeModal = () => {
+		setIsOpen(false);
+	};
+
 	return (
 		<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+			<MyModal
+				isOpen={isOpen}
+				setIsOpen={setIsOpen}
+				onClick={closeModal}
+				onClose={closeModal}
+			/>
 			<div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
-				<div class="sm:flex sm:items-center sm:justify-between">
-					<a
-						href="https://flowbite.com/"
-						class="flex items-center mb-4 sm:mb-0"
-					>
+				<div class="sm:flex sm:items-center sm:justify-between cursor-pointer">
+					<a href="" class="flex items-center mb-4 sm:mb-0">
 						<img
 							src="https://res.cloudinary.com/itgenius/image/upload/v1682186090/logo-no-background_cbbumw.svg"
 							class="h-8 mr-3"
@@ -24,10 +39,11 @@ const Footer = () => {
 								About
 							</a>
 						</li>
-						<li>
-							<a href="#" class="mr-4 hover:underline md:mr-6">
-								Privacy Policy
-							</a>
+						<li
+							class="mr-4 hover:underline md:mr-6 cursor-pointer"
+							onClick={handleClick}
+						>
+							Privacy Policy
 						</li>
 						<li>
 							<a href="#" class="mr-4 hover:underline md:mr-6 ">

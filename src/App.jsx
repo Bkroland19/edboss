@@ -10,17 +10,20 @@ import { Partners } from "./components/partners";
 import { Footer } from "./components/footer";
 import { Contact } from "./components/contact";
 import { Blog } from "./components/blog";
-
+import { Suspense } from "react";
 
 function App() {
 	return (
 		<>
-			<Navbar />
-			<Card />
-			<Partners />
-            <Services />			
-			<Contact />
-			<Footer />
+			<Suspense fallback="loading.....">
+				<Navbar />
+				<Card />
+				<Partners />
+				<Services />
+				<Contact />
+				<Footer />
+			</Suspense>
+
 			{/* <Blog /> */}
 		</>
 	);

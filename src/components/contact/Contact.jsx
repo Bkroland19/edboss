@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
 	return (
-		<div className="flex bg-[#f37c44] h-[93vh] md:h-[80vh] mt-[3799px] md:mt-[1456px]">
+		<div className="flex bg-[#f37c44] h-[93vh] md:h-[80vh] px-4 mt-[3699px] md:mt-[1456px]">
 			<div className=" md:flex justify-center items-center mx-auto md:space-x-8">
 				<div>
 					<img
@@ -32,11 +32,11 @@ const Contact = () => {
 							type="text"
 							placeholder="Your Phone Number"
 						/>
-						<input
+						{/* <input
 							className="h-[56px] placeholder-white text-white w-[50vh] bg-transparent border px-4 outline-none"
 							type="text"
 							placeholder="Location"
-						/>
+						/> */}
 						<textarea
 							className="h-[136px] placeholder-white  text-white w-[50vh] bg-transparent border px-4 outline-none"
 							type="text"

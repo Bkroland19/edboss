@@ -29,7 +29,7 @@ const cardDta = [
 ];
 const Services = () => {
 	return (
-		<div className="h-[50vh]  absolute inset-0  mt-[2799px] md:mt-[1700px]   ">
+		<div className="h-[50vh]  absolute inset-0  mt-[2799px] md:mt-[1600px] lg:mt-[1700px]   ">
 		<h1 className="text-center text-2xl font-bold my-8">What We  Offer</h1>
 			<div className="flex mx-2  flex-wrap w-[100vw] space-y-8   space-x-8 items-center justify-center">
 				{cardDta.map(({ image, text, id, title }) => (
