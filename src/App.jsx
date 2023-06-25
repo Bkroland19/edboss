@@ -6,27 +6,22 @@ import { Navbar } from "./components/navbar";
 import { Carousel } from "./components/carousel";
 import { Card, Card2 } from "./components/cards";
 import { Services } from "./components/pageutils";
-import { Partners } from "./components/partners";
-import { Footer } from "./components/footer";
-import { Contact } from "./components/contact";
-import { Blog } from "./components/blog";
-import { Suspense } from "react";
+
+import Route from "./components/route-flder/Route";
+import HomePage from "./pages/homePage";
+import AboutPage from "./pages/aboutPage";
 
 function App() {
-	return (
-		<>
-			<Suspense fallback="loading.....">
-				<Navbar />
-				<Card />
-				<Partners />
-				<Services />
-				<Contact />
-				<Footer />
-			</Suspense>
-
-			{/* <Blog /> */}
-		</>
-	);
+  return (
+    <>
+      <Route path="/">
+        <HomePage />
+      </Route>
+      <Route path="/about">
+        <AboutPage />
+      </Route>
+    </>
+  );
 }
 
 export default App;
