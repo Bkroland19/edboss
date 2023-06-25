@@ -14,7 +14,7 @@ const Footer = () => {
 	};
 
 	return (
-		<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4">
+		<footer class="bg-white rounded-lg shadow dark:bg-gray-900 m-4 min-w-[600px] ">
 			<MyModal
 				isOpen={isOpen}
 				setIsOpen={setIsOpen}
